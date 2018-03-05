@@ -1,0 +1,1 @@
+var x=setInterval(function(){var e=(new Date).getTime(),t=Math.floor(e%864e5/36e5)+7,n=Math.floor(e%36e5/6e4);n<10&&(n="0"+n),t<10&&(t="0"+t),document.getElementById("local-hours").innerHTML=t,document.getElementById("local-minutes").innerHTML=n},100);
