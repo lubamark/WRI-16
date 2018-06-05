@@ -1,0 +1,1 @@
+$("#tomsk-slider").slick({dots:!0,arrows:!1,infinite:!1,speed:300,slidesToShow:1,slidesToScroll:1,adaptiveHeight:!0});

@@ -59,6 +59,10 @@ body {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
+*:focus,
+*:hover {
+  outline: none; }
+
 .hidden {
   display: none; }
 
@@ -1117,6 +1121,11 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(29, 29, 27, 0.7); }
+  .modal__title {
+    text-align: center;
+    color: #2a8ab9; }
+  .modal__text {
+    text-align: center; }
 
 .modal__subscribe {
   display: none; }
@@ -1126,11 +1135,11 @@ body {
     width: 100%;
     max-width: 615px;
     background-color: #ffffff;
-    padding: 50px 30px 30px 30px;
+    padding: 30px;
     margin: 0 20px; }
     @media (min-width: 720px) {
       .modal__subscribe--show {
-        padding: 90px 30px 60px 30px; } }
+        padding: 60px 30px; } }
 
 .modal__close {
   position: absolute;
